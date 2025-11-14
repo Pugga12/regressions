@@ -71,6 +71,7 @@ bool expReg(const int n, const double *x, const double *y, double* a, double* cr
 	} 
 	*a = exp(b);
 	*cr = exp(m);
+	free(y_log);
 	return true;
 }
 
