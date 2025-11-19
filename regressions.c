@@ -157,6 +157,7 @@ int main() {
 			} else {
 				printf("Not successful!");
 			}
+			break;
 		case 2:
 			result = quadReg(numPoints, x_array, y_array, &a, &b, &c, &r);
 			if (result) {
@@ -164,6 +165,7 @@ int main() {
 			} else {
 				printf("Not successful!");
 			}
+			break;
 		case 3:
 			result = expReg(numPoints, x_array, y_array, &a, &b);
 			if (result) {
@@ -171,6 +173,7 @@ int main() {
 			} else {
 				printf("Not successful!");
 			}
+			break;
 	}
 
 	free(x_array);
